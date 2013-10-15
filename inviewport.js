@@ -10,19 +10,19 @@
 
 	$.fn.inViewport = function(orientation) {
 		// offsets of current viewport relative to the document
-		var winLeft = parseInt($(window).scrollLeft()),
+		var	winLeft = parseInt($(window).scrollLeft()),
 			winRight = parseInt($(window).width() + winLeft),
 			winTop = parseInt($(window).scrollTop()),
 			winBottom = parseInt($(window).height() + winTop);
 
 		// elements position relative to the document
-		var elementLeft = parseInt(this.offset().left),
+		var	elementLeft = parseInt(this.offset().left),
 			elementRight = parseInt(elementLeft + this.outerWidth()),
 			elementTop = parseInt(this.offset().top),
 			elementBottom = parseInt(elementTop + this.outerHeight());
 
 		// check if element is visible in current viewport
-		var widthVisible = elementLeft >= winLeft && elementRight <= winRight,
+		var	widthVisible = elementLeft >= winLeft && elementRight <= winRight,
 			heightVisible = elementTop >= winTop && elementBottom <= winBottom;
 
 		if (orientation == 'vertical') {
