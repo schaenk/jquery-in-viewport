@@ -20,3 +20,7 @@ $('#element').inViewport('vertical'); // return true if the full height of the e
 ```javascript
 $('#element').inViewport('horizontal'); // return true if the full width of the element is visible
 ```
+
+Licence
+-------
+MIT
