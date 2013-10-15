@@ -1,7 +1,7 @@
 jQuery Plugin - inViewport
 ==========================
 
-jQuery Plugin to check if a element is visible in the current viewport.
+jQuery Plugin to check if an element is visible in the current viewport.
 
 Usage
 -----
