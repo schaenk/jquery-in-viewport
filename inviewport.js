@@ -4,7 +4,7 @@
  * Licensed under the MIT licenses:
  * http://www.gnu.org/licenses/gpl.html
  *
- * @author Marc Schenk <marc.schenk@kletterfux.ch>
+ * @author Marc Schenk <marc(dot)schenk(at)kletterfux(dot)ch>
  * @param options object Define if elements height, width or both should be visible
  */
 (function($) {
