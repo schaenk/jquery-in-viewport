@@ -24,5 +24,3 @@ $('#element').inViewport('horizontal'); // return true if the full width of the 
 Licence
 -------
 MIT
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/57a5c8f4123dd7d9caffad613c6f77d5 "githalytics.com")](http://githalytics.com/schaenk/jquery-in-viewport)
