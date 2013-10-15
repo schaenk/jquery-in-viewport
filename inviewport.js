@@ -1,8 +1,7 @@
 /*
  * jQuery plugin to check if a element is visible in viewport
  *
- * Licensed under the MIT licenses:
- * http://www.gnu.org/licenses/gpl.html
+ * Licensed under the MIT licenses
  *
  * @author Marc Schenk <marc(dot)schenk(at)kletterfux(dot)ch>
  * @param options object Define if elements height, width or both should be visible
